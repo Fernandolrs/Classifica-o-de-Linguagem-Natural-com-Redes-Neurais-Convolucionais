@@ -25,7 +25,7 @@ Agora baixe os Datasets necessários para o treinamento e a avaliação.
 
 ## Ajustando
 
-Agora altere  os endereços de entrada dos datasets para os endereços correspondentes  em seu repositório. Sendo o primeiro  dataset de teste  e o segundo de treinamento.
+Agora altere  os endereços de entrada dos datasets no codigo fonte ''cnn.py'' para os endereços correspondentes  em seu repositório. Sendo o primeiro  dataset de teste  e o segundo de treinamento.
 <code>
 * 1 - open('Dataset teste', encoding="utf8")
 * 2 - open('Dataset Treino', encoding="utf8")
