@@ -1,7 +1,10 @@
 ## Introdução
-Esta é a implementação do artigo [Classificação de Linguagem Natual com Redes Convolucionais] ()
+Esta é a implementação do artigo [Classificação de Linguagem Natural com Redes Convolucionais] ()
 
-## Requerimentos
+
+## Requisitos
+Baixe as dependências necessárias para execução da rede neural convolucional.
+
 * python 3
 * Keras
 * Pandas
@@ -9,7 +12,10 @@ Esta é a implementação do artigo [Classificação de Linguagem Natual com Red
 * Sckit
 * scikit-learn
 
+
 ## Datasets
+Agora baixe os Datasets necessários para o treinamento e a avaliação.
+
 ### Para Treinamento
 * [wiki-news-300d-1M.vec.zip](https://s3-us-west-1.amazonaws.com/fasttext-vectors/wiki-news-300d-1M.vec.zip)
 
@@ -19,25 +25,26 @@ Esta é a implementação do artigo [Classificação de Linguagem Natual com Red
 
 ## Ajustando
 
-Agora altere  os endereços de entrada dos datasets para os endereços correspondentes  em seu repositorio. sendo o primeiro  dataset de teste  e o segundo de treinamento.
+Agora altere  os endereços de entrada dos datasets para os endereços correspondentes  em seu repositório. Sendo o primeiro  dataset de teste  e o segundo de treinamento.
 <code>
 * 1 - open('Dataset teste', encoding="utf8")
 * 2 - open('Dataset Treino', encoding="utf8")
 </code>
 
+
 ## Teste e Resultado da CNN
 
-Após  ter todas as dependencias e configurado os Datasets podemos executar a CNN de dentro do repositorio da seguinte forma:
+Após  ter todas as dependências e configurado os Datasets podemos executar a Rede Convolucional da seguinte forma:
 
 ```
 python cnn.py
 ```
 
-A execução carregara os Datasets e formara a rede, em seguida apresentara  os porcedimentos de testes em 5 epocas de execução.
+A execução carregará os Datasets e formara a rede, em seguida apresentará  os procedimentos de testes em 5 épocas de execução.
 
 ![title](configuração.jpg)
 
-Com esta configuração da CNN obterá resultados na taxa de acerto da rede de 75% confome visto na figura seguinte.
+Com esta configuração obtém-se  resultados na taxa de acerto da rede de 74% conforme visto na figura seguinte.
 
 
 ![title](resultado.jpg)
